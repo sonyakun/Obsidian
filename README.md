@@ -1,2 +1,2 @@
 # Obsidian
-Minecraft Bedrock/Java Procotol Librarry
+Obsidian is a procotol library for Minecraft Java Edition/Bedrock Edition.
