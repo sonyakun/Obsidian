@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "obsidian-mc"
+version = "0.1.0"
+description = "Minecraft Procotol Library"
+authors = ["sonyakun <owner@sonyakun.com>"]
+maintainers = [
+    "sonyakun <owner@sonyakun.com>"
+]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/sonyakun/obsidian"
+documentation = "https://sonyakun.github.io/obsidian"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.speed.dependencies]
+orjson = "^3.9.12"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
