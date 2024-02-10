@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "obsidian-mc"
 version = "0.1.0"
-description = "Minecraft Procotol Library"
+description = "Server Procotol Library for Minecraft"
 authors = ["sonyakun <owner@sonyakun.com>"]
 maintainers = [
     "sonyakun <owner@sonyakun.com>"
@@ -10,13 +10,12 @@ readme = "README.md"
 license = "MIT"
 repository = "https://github.com/sonyakun/obsidian"
 documentation = "https://sonyakun.github.io/obsidian"
+packages = [{include="obsidian"}]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-
-[tool.poetry.group.speed.dependencies]
+minecraft-data = {git = "https://github.com/HomuraMC/python-minecraft-data.git"}
 orjson = "^3.9.12"
-
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.1.14"
